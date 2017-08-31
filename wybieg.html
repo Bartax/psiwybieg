@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Fundacja Psi Wybieg</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="http://www.yoursite.com/somewhere/on/your/webserver/jquery-scrollto/lib/jquery-scrollto.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#place1').click(function() { $.scrollTo($('#wybieg1'), 1000); });
+			$('#place2').click(function() { $.scrollTo($('#wybieg2'), 1000); });
+			$('#place3').click(function() { $.scrollTo($('#wybieg3'), 1000); });
+            $('#place4').click(function() { $.scrollTo($('#wybieg4'), 1000); });
+
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+
+</head>
+<body>
+    <h1 class="text-center main-heading">
+        <img src="images/logo.png" class="left-logo-paw">
+            PSI WYBIEG
+        <img src="images/logo.png" class="right-logo-paw"> 
+    </h1>
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">Psi Wybieg</a>
+            </div>  <!-- end of the navbar header -->
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">POWRÓT NA STRONĘ GŁÓWNĄ</a></li>
+                </ul>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>  <!-- end of the navbar header -->
+            <div id="navbar-menubuilder" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="place1">Wybieg dla psów w Parku Śląskim</a></li>
+                    <li><a id="place2">Dog Park Katowice</a></li>
+                    <li><a id="place3">Wybieg Pszczyna</a></li>
+                    <li><a id="place4">Wybieg Rybnik</a></li>
+                </ul>
+            </div><!-- end of div collapse navbar-collapse -->
+        </div> <!-- container-fluid -->
+    </div> <!-- navbar navbar-default -->
+    <div class="logo_fb">
+	 	<a href="https:/facebook.com/psiwybiegwparku/" target="_blank"><img src="images/logo_fb.png"></a>
+	 </div>
+    <div id="wybieg1" style="margin-bottom: 70px;"></div>
+    <div class="content-section">
+        <div class="container">    
+            <div class="row">    
+                <div class="col-md-12">
+                    <h1 class="text-center h1-dogwalk">Wybiegi w okolicy</h1>
+                    <h2 class="">Wybieg dla Psów w Parku Śląskim</h2>
+                    <p class="p-behave">W jednym z poprzednich opisów użyłyśmy słów, że jest to jeden z LEPSZYCH wybiegów dla psów- a będzie jeszcze lepszy .
+                        Przed wszystkim walory rekreacyjne oraz atrakcje  jakie posiada sam Park Śląski.
+                        Atrakcjami Głównymi są – Planetarium Śląskie, Śląski Ogród Zoologiczny, Śląski Park Linowy, Kolejka Linowa Elka i wiele wiele innych. Można liznąć również trochę przyrody poprzez Rosarium,Alpinarium czy Ogród Bylinowy .Dzieciaki również mają zajęcia dla siebie Śląskie Wesołe Miasteczko , wcześniej wymieniony Park Linowy i Ogród Zoologiczny . Zapaleni Sportowcy również znajdą coś ciekawego , korty tenisowe, Treningi Biegowe, lub dla wyciszenia Joga, Seniorzy mają również w zanadrzu parkową Akademię Wolontariatu . A dla tych bardziej mądralińskich jest również edukacja  jak np. Akademia Bioróżnorodności,Ośrodek Harcerski, Kotlina Dinoraurów i oczywiście jako edukację również zaliczyłabym Wybieg dla Psów bo kto jak nie MY dorośli będziemy edukować młodzież w odpowiednim postępowaniu przy zwierzętach.
+                        Dlaczego uważamy , wybieg dla psów jako edukację – mamy w planach prowadzić cykliczne spotkania z młodzieżą o tym w jaki sposób  traktować zwierzęta, chcemy przekazać im ,że pies to przyjaciel i tak jak każdy przyjaciel zasługuje na szacunek.<br><br>
+ 
+                        Po długim i nudnym wstępie przejdę do meritum sprawy.
+                        Wybieg dla Psów w Parku Śląskim ma powierzchni około 1000m2, jest sporo zalesiony co w upalne dni daje dużo chłodu i pozwala psom na spokojne zabawy. Dzięki zalesieniu nie doprowadzimy naszego czworonoga na skraj wyczerpania , a co za tym idzie problemy zdrowotne. To jeden z ważniejszych elementów każdego wybiegu -zalesienie. Zimą i jesienią drzewa spełniają funkcję ochrony przed wielkim błotem jakie potrafią się pojawiać na wybiegach po deszczach czy śniegu.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2"> 
+                            <img src="images/park-slaski-photo1.jpg">
+                        </div>
+                    </div>    
+                    <p class="p-behave">Obecnie ten wybieg wymaga gruntownej naprawy i dostosowania go dla nowych     trendów na wybiegach a z racji tego,że ma doskonały potencjał będziemy społecznie         
+                        organizować zbiórkę na wymian ogrodzenia, stworzenie piaskownicy, oraz toru agillity.      Liczymy,że i Wy się dołożycie – no bo przecież to wybieg bezpłatny i każdy opiekun czworonoga   może z niego korzystać.<br><br>
+                        Wybieg zlokalizowany tuż obok Alei Głównej, nieopodal głównego wejścia do parku od strony ul. Chorzowskiej ( visa/vi pół marsowych P . Przy głównych szlakach spacerowych rozmieszczone są specjalne kosze na psie odchody. Na każdym wybiegu obowiązkowy jest regulamin którego bezwzględnie trzeba przestrzegać , taki regulamin na tym wybiegu znajdziecie przed wejściem – pamiętajcie aby się z nim zapoznać.Zobaczcie jak psiaki doskonale bawią się na tym wybiegu.</p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">         
+                            <img src="images/park-slaski-photo2.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2"> 
+                            <img src="images/park-slaski-photo3.jpg">
+                        </div>
+                    </div>
+                    <div id="wybieg2" style="margin-bottom: 220px;"></div>
+                    <h2 class="">Dog Park Katowice</h2>
+                    <p class="p-behave">
+                        19.11.2016 nastąpiło otwarcie kolejnego wybiegu dla psów, DOG PARK Józefowiec-Wełnowiec. Dzielnica przyjazna psom.<br> 
+                        <a class="text-center" href="https://www.facebook.com/KatowiceDogParkJozefowiecWelnowiec">Zapraszamy na facebookowy profil wybiegu.</a><br>
+                        Miejsce to powstało dzięki zaangażowaniu społeczników oraz Pana Stanisława Barczaka. Pan Stanisław zgłosił swój projekt do Urzędu Miasta Katowice, w budżecie obywatelskim i oto jest. Dog Park posiada wiele zalet dla psiaków - piasek który wchłania mnóstwo zapachów – a przecież jak wszyscy wiemy psiaki uwielbiają zapachy :). Powstał również profesjonalnie przygotowany tor agillity dzięki czemu opiekunowie psów będą mogli ćwiczyć ze swoimi psiakami wykorzystując przeszkody, a kto wie może nowy mistrz nam wyrośnie z podwórkowego toru :).
+                        Pokaz Agillity, który prezentowała nam Anna Muszyńska, mimo pogody odbył się bez zakłóceń. Dostaliśmy dużo ważnych rad, jak psa wprowadzić w świat agillity (opiszemy je w najbliższym czasie).  
+                        Na otwarciu pojawiło się dużo innych fajnych osób i ich psów między innymi był Furiat, któremu jak widziałyśmy strasznie spodobał się tor, nawet miał swoje 5 minut na kładce :)
+                        <br>
+                        Teren jest bardzo dobrze zabezpieczony, jest regulamin , informacja jak prawidłowo korzystać z toru przeszkody, są dwie śluzy jak również kosze na psie odchody. Pamiętajmy, że musimy sprzątać po swoim psie.    
+                        <br>
+                        Pod tym linkiem, możecie zobaczyć jak nasze psiaki i ich właściciele bawili się na nowo otwartym obiekcie: <a href="https://www.youtube.com/watch?v=0Tpw9SsOs4A">video na youtube</a>
+                        Otwarcie wybiegu Dog Park Katowice
+                        Każdy kto chce wybrać się na spacer do DOG Parku tutaj znajdzie dokładną lokalizacje
+                        współrzędne :50.2795252,19.010596
+                        Rejon ul. Nowowiejskiego, ul. Szczecińskiej, ul. T. Kotlarza
+                        Serdecznie Zapraszamy :)
+                    </p>
+                    <p class="text-center" style="font-size: 20px;">
+                        Jeśli wiecie, że w Waszym mieście, na Waszej dzielnicy planują bądź powstają takie miejsca piszcie do Nas @:psiwybieg1@wp.pl. 
+                        Również jeżeli chcecie abyśmy pomogły w organizacji :)</p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/dogpark1.jpg" style="height: 100vh;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/dogpark2.jpg" style="height: 100vh;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/dogpark3.jpg" style="height: 100vh;">
+                        </div>
+                    </div>
+                    <div id="wybieg3" style="margin-bottom: 220px;"></div>
+                    <h2 class="">Wybieg Pszczyna</h2>
+                    <p class="p-behave">Psi Park usytuowany jest przy ul Bielskiej/Władysława Jagiełły w Pszczynie os. Piastów.<br>Składa się on z dwóch części, tak aby można swobodnie korzystać z niego dla różnej wielkości psiaków . 
+                    Na jednej z części znajduje się tor agillity. 
+                    Cyt ”Projekt sporządził dla nas trener psów policyjnych - mówi burmistrz Pszczyny Dariusz Skrobol. Są tutaj drabinki, huśtawka, tunel, płotki czy obręcze do skoków. Mieszkańcy osiedla już chwalą pomysł, bo w końcu mają gdzie wyprowadzać psy."  Czytaj wiecej
+                    <br>Przy Psim Parku znajduje się regulamin, są również kosze na psie odchody oraz ławeczka dla opiekunów. Wybieg łącznie ma 2500 metrów kwadratowych
+                    Trafić tam można: róg ulic Bielskiej i Władysława Jagiełły, 43-200 Pszczyna współrzędne:49.970945,18 942748
+                    </p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna1.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna2.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna3.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna10.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna5.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna6.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna7.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna8.jpg" style="height: 100vh;">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/pszczyna9.jpg" style="height: 100vh;">
+                        </div>
+                    </div> <!-- wybieg 3 -->
+                    <div id="wybieg4" style="margin-bottom: 220px;"></div>
+                    <h2 class="">Wybieg Rybnik</h2>
+                    <p class="p-behave">Witamy wszystkich, Ostatnio czas bardzo miło spędziłyśmy na otwarciu pierwszego Wybiegu dla Psów w Rybniku, który zlokalizowany jest przy ul. Góreckiej w dzielnicy Makro-Nowiny. Pierwsze co Nam się rzuciło w oczy to parking, na którym można swobodnie zaparkować przy samym wybiegu. Przed samym wejściem znajduje się duży czytelny regulamin, do którego warto się stosować, aczkolwiek kilka zmian regulaminu powinno się w nim znaleźć . Na wybieg wejdziemy przez śluzę ( która jest zlokalizowana w dwóch miejscach ) czyli podwójne wejście – jest to doskonałe rozwiązanie ponieważ można pomiędzy furtkami swobodnie odpiąć psiakowi smycz. Pierwsze spotkanie bardzo nieśmiałe, każdy opiekun ze swoim pieskiem, wchodził trzymając psa na smyczy. Trochę to niepokojące, ponieważ wybieg służy luźnemu poszczaniu psiaków. Jest to miejsce do którego powinniśmy chodzić, aby psy w odpowiedni sposób się ze sobą komunikowały oraz bawiły. Tutaj pozwolę sobie wtrącić pewną myśl – <br>Kochani Opiekunowie pamiętajmy o tym, że wybieg to nie wychodek dla psa, nie można go traktować jak toaletę. Jak sama nazwa wskazuje wybieg ma służyć zabawom i socjalizacji. <br>
+                Owszem nie unikniemy, że Nasze psiaki będą tam załatwiały swoje potrzeby, ale pamiętajmy, że musimy po nich posprzątać. Kolejną ważną sprawą jest to,że zanim przyjdziemy na wybieg zróbmy psiakowi wycieczkę węchową. Psy komunikują się między innymi poprzez węch , każdy krzaczek bądź trawka mówi psiakowi o tym co się w okolicy dzieje – to tak jak dla nas Facebook, sms, telefon od koleżanki/kolegi czy gazeta. Psiak siedząc w domu kilka godzin kumuluje w sobie energię, którą później na spacerze chce wyładować. Możemy w trakcie spaceru pobawić się z psiakiem np. rzucając aport, pobiegać, lub nawet spokojnie iść i pozwolić zbierać informacje o okolicy. Po wyładowaniu skumulowanej energii, idźmy na wybieg, tam na pewno spotka swoich kolegów i koleżanki z którymi będzie się spokojnie bawił. Takie odpowiedzialne zachowanie opiekuna pozwoli na bezpieczne zachowanie psów na wybiegu. <br>
+                   Wracając do wybiegu, który odwiedziłyśmy, było kilka słów na niedzielę, pokazy psa policyjnego (oj jak My zazdrościmy,że on taki posłuszny) ale Nasze psiaki też się słuchają na swój sposób :) były też schroniskowe psiaki szukające domów. Muszę powiedzieć, że pięknie się zachowywały. Na wybiegu znajdziemy szereg atrakcji, jak pochylnia, kładka, skocznia, slalom. Z każdej tej atrakcji możemy korzystać do woli :) Pamiętajmy o tym, że jeśli piesek dopiero się uczy musimy mu pomóc w nauce toru agility. Bardzo fajnym pomysłem jest budka na wodę z miskami która stoi przy jednym z wejść. Podsumowując całe spotkanie i sam wybieg – psiaki bawiły się wyśmienicie, opiekunowie rozmawiali o swoich czworonogach i wymieniali się doświadczeniem. Bardzo Nas cieszy to,że takie miejsca robią się coraz bardziej popularne. Najważniejsze jest to, żeby we właściwy sposób z nich korzystać. Polecamy i zachęcamy do umawiania się z innymi psiarzami na wybiegu :) </p>
+                <div class="row">   
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik1.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik2.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik3.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik4.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik5.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik6.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">  
+                            <img src="images/rybnik10.jpg" style="height: 100vh;">
+                        </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <img src="images/rybnik11.jpg" style="height 100vh">    
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 height-img">  
+                            <img src="images/rybnik9.jpg">
+                        </div>
+                    </div>    
+                </div><!--<end of col-md-12>-->
+            </div> <!-- end of the row -->   
+        </div> <!-- end of container -->
+    </div> <!-- end of section-content -->
+    <div class="copyright">
+        <div class="container">
+            <div class="col-md-12">
+                <p>© Psi Wybieg - 2016</p>
+            </div>
+        </div><!-- end of bootom footer cont. -->
+    </div><!-- end of copyright -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+
+	   $(document).ready(function() {
+	   var NavY = $('.navbar').offset().top;
+	 
+	   var stickyNav = function(){
+	   var ScrollY = $(window).scrollTop();
+		  
+	   if (ScrollY > NavY) { 
+           $('.navbar').addClass('sticky');
+	   } else {
+		$('.navbar').removeClass('sticky'); 
+	   }
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+    </script>
+
+</body>
+</html>

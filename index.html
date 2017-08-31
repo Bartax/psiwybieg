@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap - testing site</title>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="http://www.yoursite.com/somewhere/on/your/webserver/jquery-scrollto/lib/jquery-scrollto.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#about'), 1000); });
+			$('#link2').click(function() { $.scrollTo($('#actions'), 1000); });
+			$('#link3').click(function() { $.scrollTo($('#contact'), 1000); });
+
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+</head>
+<body>
+    <h1 class="text-center main-heading">
+        <img src="images/logo.png" class="left-logo-paw">
+            PSI WYBIEG
+        <img src="images/logo.png" class="right-logo-paw"> 
+    </h1>
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">Psi Wybieg</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+            </div>  <!-- end of the navbar header -->
+            <div id="navbar-menubuilder" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="link1">O nas</a></li>
+                    <li><a href="ouractions.html">Nasze akcje</a></li>
+                    <li><a href="wybieg.html">Wybieg dla psów</a></li>
+                    <li><a href="behawioryzm.html">Behawioryzm</a></li> 
+                    <li><a id="link3">Kontakt</a></li> 
+                </ul>
+            </div> <!-- end of div collapse navbar-collapse -->
+        </div> <!-- container-fluid -->
+    </div> <!-- navbar navbar-default -->
+    <div class="logo_fb">
+	 	<a href="https:/facebook.com/psiwybiegwparku/" target="_blank"><img src="images/logo_fb.png"></a>
+	 </div>
+    <div class="container-fluid">  
+        <div class="hero">
+            <p>Witamy na naszej stronie wszystkich miłośników psów. Chcemy dzielić z Państwem naszą pasję jaką jest miłość do czworonogów</p>
+        </div>
+    </div><!-- end of container-fluid -->
+    <div id="about"></div><!-- margin dla scrolla ustawiony -->
+    <div class="content-section">
+        <div class="container">    
+            <div class="row">    
+                <div class="col-md-12">
+                    <h1 class="text-center h1-section">O nas</h1>                   
+                    <p class="p-about">Będąc użytkowniczkami wybiegu dla psów w Parku Śląskiem a zarazem opiekunkami kilku fantastycznych psiaków różnej maści, temperamentu jak również charakteru, postanowiłyśmy dzielić się naszym doświadczeniem zbieranym przez lata. Każda z Nas na co dzień robi coś innego, kompletnie niezwiązanego z praca nad zwierzętami. Nina jest Adwokatem, Ania -  Przedstawicielem Handlowym, a Ada - Z-cą Kierownika w sklepie motoryzacyjnym, jak widzicie trzy różne światy, a mimo wszystko zostały połączone przez Nasze fantastyczne psieseły. Nasza wspólna przygoda zaczęła się od obserwacji na wybiegu który jest przez Nas dość często odwiedzany - dlaczego dość często wyjaśnimy w sekcji „Wybiegi dla Psów" oraz  „Nasze Akcje”
+                    </p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <img src="images/background-photo.jpg" alt="background-photo">
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <img src="images/main-secion-photo.jpg" alt="background-photo">
+                        </div>
+                    </div>    
+                </div><!--<end of col-md-12>-->
+            </div> <!-- end of the row -->   
+        </div> <!-- end of container -->
+    </div> <!-- end of section-content -->
+       
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<!--FOOTER START FROM HERE-->
+        <footer id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 contact-section">
+                        <h1 id="contact" class="text-center">KONTAKT</h2>
+                        <h3 class="text-center">Fundacja Psi Wybieg</h3> 
+                        <p class="text-center"><i class="fa fa-facebook"></i><a href="http://www.facebook.com/psiwybieg1/" target="_blank">facebook.com/psiwybieg1</a></p>
+                        <a href="mailto:psiwybieg1@gmail.com"><p class="text-center"><i class="fa fa-envelope"></i>psiwybieg1@gmail.com</p></a>
+                        <p class="text-center">KRS:0000638728,NIP2220901232</p>
+                        <p class="text-center">NR KONTA:06 1240 4836 1111 0010 7033 3764</p>
+                    </div>        
+                </div>  <!--  END OF ROW -->
+            </div><!-- END OF THE CONTAINEr --> 
+        </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="col-md-12">
+                <p>© Psi Wybieg - 2016</p>
+            </div>
+        </div><!-- end of bootom footer cont. -->
+    </div><!-- end of copyright -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+
+	   $(document).ready(function() {
+	   var NavY = $('.navbar').offset().top;
+	 
+	   var stickyNav = function(){
+	   var ScrollY = $(window).scrollTop();
+		  
+	   if (ScrollY > NavY) { 
+           $('.navbar').addClass('sticky');
+	   } else {
+		$('.navbar').removeClass('sticky'); 
+	   }
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+    </script>
+
+</body>    
+</html>    
+
+
+
+                

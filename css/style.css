@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+body {
+    background-color: aliceblue;
+}
+
+.main-heading {
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+}
+
+.left-logo-paw {
+    height: 40px;
+    margin-right: 2vh;
+}
+
+.right-logo-paw {
+    height: 40px;
+    margin-left: 2vh;
+    transform: rotate(60deg);
+}
+
+.copyright-our-actions {
+    margin-bottom: 0px;
+    min-height:40px; 
+    background-color:#000000;
+}
+
+.copyright-our-actions p {
+     text-align:center; 
+     color:#FFF; 
+     padding:20px 0; 
+     margin-bottom:0px;
+}
+
+.navbar-default {
+    background-color: #7ddd6c;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
+    transition: color .5s linear;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFE92F;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Lobster', cursive;
+	font-size: 24px !important;
+    color: white;
+    transition: .5s linear;
+    letter-spacing: 5px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #FFE92F;
+}
+
+.logo_fb {
+	position: fixed;
+	top: 40vh;
+	left: 0;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	z-index: 100;
+}
+
+.logo_fb:hover {
+	transform: scale(1.10);
+}
+
+.logo_fb img {
+	height: 120px;
+}
+
+.hero {
+    background-image: url('https://static.pexels.com/photos/132668/pexels-photo-132668.jpeg');
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -20px;
+}
+
+#about {
+        margin: -25px 0 50px;
+}
+
+.content-section {
+    width: 100%;
+    padding: 0 0 30px;
+}
+
+.h1-dogwalk {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.content-section img {
+    margin: 30px auto 0;
+    width: 100%;
+}
+
+.h1-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.h1-actions {
+    margin-bottom: 20px;
+    margin-top: -60px;
+    font-size: 40px;
+}
+
+.p-behave {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0 50px;
+}
+
+.p-about {
+    font-size: 19px;
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0 50px;
+}
+
+.p-our-actions {
+    font-size: 24px;
+    margin-bottom: 60px;
+    line-height: 200%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-events {
+    background-color: #fff;
+    margin-bottom: 100px;
+    height: 650px;
+    overflow: auto;
+}
+
+.nav-tabs {
+    color: black;
+    background-color: #7ddd6c;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:active {
+    background-color: lightgreen;
+}
+
+.nav-tabs.nav-justified>li:first-child {
+      border-right: 1px solid black;
+}
+
+.nav-tabs a {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 3px;    
+}
+
+.event {
+    margin: 60px 30px;
+}
+
+.event h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.event p {
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.row .col-md-12 img {
+    height: 400px;
+}
+
+.hero p {
+	margin-top:  8%;
+	margin-right: 5%;
+	text-align: center;
+	color: white;
+    max-width: 400px;
+    font-family: 'Istok Web', sans-serif;
+	background-color: rgba(154, 205, 50, 0.6);
+	border-radius: 5%;
+	padding:  30px 20px;
+	animation-duration: 20s;
+    animation-name: mark;
+    font-size: 20px;
+    opacity: 0;
+    float: right; 
+	}
+
+    @keyframes mark {
+	0% {opacity: 0;}
+    40% {opacity: 1}    
+	100% {opacity: 1;}
+}	
+    
+.sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.behave-main-heading {
+    margin-top: 40px;
+}
+
+footer { 
+    background-color:#7ddd6c;
+    min-height:350px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer h1 {
+    color: #fff;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer p:last-child {
+    margin-bottom: 50px;
+}
+
+.contact-section { 
+    margin-top:20px; 
+    padding:0 36px; 
+}
+
+.contact-section h3 {
+    font-weight: 900;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-section p { 
+    color:#fff; 
+    font-size: 16px; 
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom:15px;
+}
+
+.contact-section p i { 
+    width:50px; 
+    color: #fff;
+    font-size: 30px;
+}
+
+.contact-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-section p a:hover {
+    color: #3B5998;
+}
+
+.dogwalk-behave-photo {
+    height: 100vh;
+}
+
+ .copyright { 
+     min-height:40px; 
+     background-color:#000000;
+     margin-bottom: -80px;
+}
+
+ .copyright p { 
+     text-align:center; 
+     color:#FFF; 
+     padding:20px 0; 
+     margin-bottom:0px;
+}
+
+.zarzad {
+    height: 100px;
+}
+
+.zarzad > img {
+    height: 100px;
+}
+
+@media (max-width: 922px) {
+    
+    .navbar-brand {
+        display: none;
+    }    
+    
+    .navbar-right {
+        float: right;
+    }
+    
+    .hero {
+        height: 50vh;
+    }
+    
+    .hero p {
+        display: none;
+    }
+    
+    .logo_fb {
+        display: none;
+    }
+    
+    #about {
+        margin-top: -250px;
+    }
+    
+    .h1-section {
+        margin-top: 250px;
+        font-size: 26px;
+    }
+    
+    .h1-actions {
+        font-size: 26px;
+    }
+    
+    .p-about {
+        margin-top: -110px;
+    } 
+
+    .p-about {
+        text-align: justify;
+        font-size: 16px;
+        margin-top: -30px;
+    }
+    
+    .behave-main-heading {
+        margin-top: 250px;
+    }
+    
+    .event h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .event p {
+        font-size: 16px;
+        line-height: 200%;
+        text-align: justify;
+    }
+    
+    .height-img > img {
+        height: 60vh;
+    }
+}
+
